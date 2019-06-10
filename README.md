@@ -10,7 +10,8 @@ This is a custom Golang docker image for testing,
 - Git LFS (to pull in test vectors)
 - tar, gzip
 - curl (to pull in scripts / data)
-- make
+- gcc, g++: for CGO building
+- make: for repository build/test scripts
 - bash: for scripting & coverage report upload (codecov)
 - gotestsum: for nice formatting of test runs,
  and building the test report in Junit-style XML.
