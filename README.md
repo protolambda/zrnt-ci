@@ -18,5 +18,5 @@ This is a custom Golang docker image for testing,
  and building the test report in Junit-style XML.
 
 ```bash
-docker build -t protolambda/zrnt-ci-primary:1.3.0 primary
+docker build -t protolambda/zrnt-ci-primary primary
 ```
